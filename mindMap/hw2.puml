@@ -1,0 +1,10 @@
+@startuml
+start
+:model变换;
+note right:通过平移和旋转将物体放置在坐标系合适的地方
+:view变换;
+note right:坐标变换相机放置在坐标系标准位置处
+:projection变换;
+note right:将3D物体转换到2D屏幕上
+end
+@enduml
